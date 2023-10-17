@@ -167,7 +167,7 @@ int main() {
     List lst;
     char s[]="Hello world!!!";
     cout<<s<<endl;
-    int len=(int)Fstrlen(s);
+    int len=(int)strlen(s);
     for (int i=0;i<len;i++)
     {
         lst.Add(s[i]);
